@@ -1,0 +1,377 @@
+      @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&family=Signika&display=swap');
+
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body{
+      width: 100%;
+      height: 100%;
+      background:white;
+    }
+     header{
+
+  z-index: 10;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  height: 50px;
+  background:#e9eef0;
+  width: 100%;
+}
+.nombre{
+    font-family: Roboto Condensed; 
+    color:black;
+    padding-top: 5px;
+    float: left;
+}   
+.wrapper{
+  width: 100%;
+  margin: 0 auto;
+}
+  .menu{
+  width: 100%;
+  font-family:  Roboto Condensed;
+  font-size: 21px;  
+  padding-top: -20px;
+}
+.menu ul{
+  float: right;
+  display: flex;
+  margin-right: 30px;
+}
+.menu ul li{
+  list-style: none;
+  position: relative;
+}
+.menu ul li a{
+  display: inline-block;
+  padding: 0 1rem;
+  padding-top: 1.2rem;
+  color: black;
+  text-decoration: none;
+}
+.menu ul li a button{
+  display: inline-block;
+  margin-top: -9%;
+  width: auto;
+  background: #011a8a;
+  border-color: #011a8a;
+}
+.menu ul li a button:hover{
+  background: #02a9db;
+  border-color: #02a9db;
+}
+    .um{
+     width: 95%;
+     height: auto;
+      position: relative;
+      margin-top: 0px;  
+      display: block;
+      margin-left: 2.5%;
+          }
+   .um1{
+     position: relative;
+height: auto;
+width: 80%;
+color: white;
+float: left;
+margin-left: 10%;
+margin-top: 1%;
+text-align: justify;
+    }
+  
+    .un{
+      margin-top: 20px;
+      border-radius: 5px; 
+      border: transparent;
+      width: auto;
+      height: auto;
+      background: transparent;
+    }
+    .mt-5{
+      margin-top: 1rem !important;
+    }
+    .rati{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .star{
+      font-size: 40px;
+      color: #bbb;
+      transition: color 0.3s;
+      cursor: pointer;
+    }
+    .star:hover, .star.checked{
+      color: gold;
+    }
+    .star1{
+      font-size: 1.25rem;
+      color: #bbb;
+    }
+    .star1:hover, .star1.checked{
+      color: gold;
+    }
+    #msform {
+  width: 80%;
+  margin: 0px auto;
+  text-align: center;
+  position: relative;
+  display: block;
+  font-family: Roboto Condensed;
+  float: right;
+}
+#msform fieldset {
+  background: white;
+  border: 0 none;
+  border-radius: 3px;
+  box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+  padding: 20px 30px;
+  box-sizing: border-box;
+  width: 100%;  
+  position: relative;
+}
+/*ocultar los otros apartados menos el primero*/
+#msform fieldset:not(:first-of-type) {
+  display: none;
+}
+
+#msform input, #msform textarea {
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  font-family: Roboto Condensed;
+  color: #2C3E50;
+  font-size: 13px;
+}
+
+#msform .action-button {
+  width: 100px;
+  background: #27AE60;
+  font-weight: bold;
+  color: white;
+  border: 0 none;
+  border-radius: 1px;
+  cursor: pointer;
+  padding: 10px;
+  margin: 10px 5px;
+  text-decoration: none;
+  font-size: 14px;
+}
+#msform .action-button:hover, #msform .action-button:focus {
+  box-shadow: 0 0 0 2px white, 0 0 0 3px #27AE60;
+}
+
+.fs-title {
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #2C3E50;
+  margin-bottom: 10px;
+}
+.fs-subtitle {
+  font-weight: normal;
+  font-size: 13px;
+  color: #666;
+  margin-bottom: 20px;
+}
+.comen{
+background: yellow;
+width: 30%;
+height: auto;
+float: left;
+}
+
+.text{
+position: relative;
+height: auto;
+width: 75%;
+color: white;
+float:left;
+margin-top:8%;
+margin-left: 5%;
+text-align: right;
+}
+.text1{
+position: relative;
+height: auto;
+width: 80%;
+color: white;
+float: left;
+margin-left: 10%;
+margin-top: 1%;
+text-align: justify;
+}
+.text .h1{
+  margin-bottom: 5%;
+}
+.text .h2, .text .h3{
+margin-bottom: 10%;
+}
+.perf{
+background: black;
+width: 100%;
+height: 220px;
+overflow: hidden;
+border-radius: 5px;
+}
+
+.mostrar{
+position: absolute;
+height: auto;
+width: 100%;
+}
+.mostrar2{
+position: relative;
+height: auto;
+width: 100%;
+margin-top: 3%;
+display: flex;
+}
+.foto{
+background: yellow;
+  width: 270px;
+  height: 230px;
+  background-size: cover;
+border: 5px solid gray;
+  line-height: 100px;
+  position: absolute;
+  margin-top: 1%;
+  margin-left: 4%;
+  border-radius: 3px;
+}
+.foto1{
+background:transparent;
+  width: 100px;
+  height: 100px;
+  background-size: cover;
+  border-radius: 45%;
+  float: left;
+  line-height: 100px;
+  position: relative;
+  margin-top: 0px;
+   box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+}
+.contenedor1{
+  float: left;
+  background: lightgray;
+  width: 40%;
+  height: auto;
+  border-radius: 5px;
+  padding: 20px 20px 20px 20px;
+}
+.contenedor2{
+  float: right;
+  background: lightgray;
+  width: 58%;
+  height: auto;
+  border-radius: 5px;
+  margin-left: 1%;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+.tdv{
+  position: relative;
+width: 80%;
+color: black;
+float: left;
+margin-left: 10%;
+margin-top: 1%;
+text-align: justify;
+}
+.table{
+  color: white;
+}
+  footer{
+      font-family: Roboto Condensed;
+        top: 0px;
+  left: 0px;
+  right: 0px;
+      background: #e9eef0;
+    width: 100%;
+    height: auto;
+ padding: 10px 3%;
+    display: flex;
+    min-height: 100px;
+   
+}
+.contenedor{
+  width: 100%;
+  height: auto;
+    min-height: 100px;
+}
+.contenedor .sec.pre{
+    width: 40%;
+    height: 100%;
+    float: left;
+    
+} 
+.contacto{
+    width: 60%;
+    height: 100%;
+    float: right;
+    padding-left: 380px;
+}
+
+.contacto .info ul{
+float: right;
+  display: flex;
+}
+.contacto .info li{
+    list-style-type: none;
+    display: inline;
+    margin-bottom: 0px;
+    padding-right: 31px;
+}
+.contacto .info li span:nth-child(1){
+    color: black;
+    font-size: 30px;
+    margin-right: 0px;
+}
+.contacto .info li span{
+    color:  black;
+    font-size: 20px;
+    font-family: Roboto Condensed;
+}
+.contacto .info li a{
+    color:  black;
+    font-size: 30px;
+    font-family: Roboto Condensed;
+    text-decoration: none;
+    padding-top: 5px;
+
+}
+.contacto .info li a:hover{
+    color: #73E62C;
+}
+.h5{
+  color: black;
+ }
+
+ @media screen and (max-width: 768px) {
+  .menu ul {
+    margin-right: 0;
+    justify-content: center; /* Centra los elementos en dispositivos pequeños */
+  }
+
+  .menu ul li {
+    margin-right: 10px; /* Espaciado más pequeño entre elementos */
+  }
+}
+
+@media screen and (max-width: 600px) {
+  header {
+    height: auto; /* Ajusta la altura según el contenido */
+    padding: 10px 0; /* Agrega un poco de espacio alrededor del contenido */
+  }
+
+  .menu {
+    font-size: 16px; /* Reduzca el tamaño de fuente en dispositivos más pequeños */
+  }
+}

@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Condensed:wght@400;500;600;700&display=swap');
+
+*,
+*::before,
+*::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+body{
+  font-family: 'Sofia Sans Condensed', sans-serif;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+.header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(1, 1, 1, 0.7);
+  padding: 0px 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1000;
+}
+
+.logo{
+  font-size: 40px;
+  color: white;
+  font-weight: 700;
+  text-align: center;
+}
+
+.navegation ul{
+
+      list-style: none;
+
+}
+
+.header .navegation ul li {
+  float: left;
+  position: relative;
+
+}
+
+.header .navegation ul li a{
+  font-size: 24px;
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+  display: block;
+  transition: all .2s ease;
+}
+
+.header .navegation ul li a:hover{
+  background-color: #685cfe;
+}
+
+.header .navegation ul li ul{
+  position: absolute;
+  right: 0;
+  width: 300px;
+  background-color: rgba(1, 1, 1, 0.7);
+  display: none;
+}
+.header .navegation ul li ul li a{
+  font-size: 22px;
+  text-transform: capitalize;
+
+}
+
+.header .navegation ul li ul li ul{
+  position: absolute;
+  top: 0;
+  right: 300px;
+
+}
+
+.header .navegation ul li ul li{
+  width: 100%;
+}
+
+.header .navegation ul li:hover > ul {
+display: initial;
+}
+
+#toggle,
+.header label{
+  display: none;
+  cursor: pointer;
+}
+
+.menu{
+  width: 45px;
+  height: 25px;
+
+}
+
+
+@media(max-width:950px){
+  .header label{
+    display: initial;
+  }
+
+  .header{
+    padding: 20px 10%;
+  }
+
+  .header .navegation{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: rgba(1, 1, 1, 0.7);
+    display: none;
+  }
+  .header .navegation ul li{
+    width: 100%;
+  }
+  .header .navegation ul li a{
+    padding: 8px 30px 8px 10%;
+  }
+  .header .navegation ul li ul{
+    position: relative;
+    width: 100%;
+    left: 0;
+  }
+  .header .navegation ul li ul li{
+    background-color: rgba(1, 1, 1, 0.7);
+  } 
+  .header .navegation ul li ul li ul{
+    position: relative;
+    width: 100%;
+    left: 0;
+  }  
+  #toggle:checked ~ .navegation{
+    display: block;
+  }
+}

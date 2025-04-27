@@ -1,0 +1,383 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&family=Signika&display=swap');
+
+		*{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+    .um{
+     width: 100%;
+     height: auto;
+      position: relative;
+      margin-top: -20px;
+      display: Flex;
+          }
+   .um1{
+     position: relative;
+height: auto;
+width: 80%;
+color: white;
+float: left;
+margin-left: 10%;
+margin-top: 1%;
+text-align: justify;
+    }
+  
+    .un{
+      margin-top: 20px;
+      border-radius: 5px; 
+      border: transparent;
+      width: auto;
+      height: auto;
+      background: transparent;
+    }
+		.rati{
+			display: flex;
+      align-items: center;
+      justify-content: center;
+		}
+		.star{
+			font-size: 40px;
+			color: #bbb;
+			transition: color 0.3s;
+			cursor: pointer;
+		}
+		.star:hover, .star.checked{
+			color: gold;
+		}
+    .star1{
+      font-size: 1.25rem;
+      color: #bbb;
+    }
+    .star1:hover, .star1.checked{
+      color: gold;
+    }
+		#msform {
+  width: 80%;
+  margin: 0px auto;
+  text-align: center;
+  position: relative;
+  display: block;
+  font-family: Roboto Condensed;
+  float: right;
+}
+#msform fieldset {
+  background: white;
+  border: 0 none;
+  border-radius: 3px;
+  box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+  padding: 20px 30px;
+  box-sizing: border-box;
+  width: 100%;  
+  position: relative;
+}
+/*ocultar los otros apartados menos el primero*/
+#msform fieldset:not(:first-of-type) {
+  display: none;
+}
+
+#msform input, #msform textarea {
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  font-family: Roboto Condensed;
+  color: #2C3E50;
+  font-size: 13px;
+}
+
+#msform .action-button {
+  width: 100px;
+  background: #27AE60;
+  font-weight: bold;
+  color: white;
+  border: 0 none;
+  border-radius: 1px;
+  cursor: pointer;
+  padding: 10px;
+  margin: 10px 5px;
+  text-decoration: none;
+  font-size: 14px;
+}
+#msform .action-button:hover, #msform .action-button:focus {
+  box-shadow: 0 0 0 2px white, 0 0 0 3px #27AE60;
+}
+
+.fs-title {
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #2C3E50;
+  margin-bottom: 10px;
+}
+.fs-subtitle {
+  font-weight: normal;
+  font-size: 13px;
+  color: #666;
+  margin-bottom: 20px;
+}
+.comen{
+background: yellow;
+width: 30%;
+height: auto;
+float: left;
+}
+.perf{
+background: #e9eef0;
+width: 100%;
+height: 100%;
+float: right;
+overflow: hidden;
+}
+.text{
+position: relative;
+height: auto;
+width: 55%;
+color: black;
+float: left;
+margin-top:8%;
+margin-left: 10%;
+text-align: justify;
+}
+.text1{
+position: relative;
+height: auto;
+width: 80%;
+color: black;
+float: left;
+margin-left: 10%;
+margin-top: 1%;
+text-align: justify;
+}
+.text .h1{
+  margin-bottom: 5%;
+}
+.text .h2, .text .h3{
+margin-bottom: 10%;
+}
+.foto{
+background: white;
+  width: 250px;
+  height: 250px;
+  background-size: cover;
+  border-radius: 35%;
+  float: right;
+  line-height: 100px;
+  position: relative;
+  margin-right: 30px;
+  margin-top: 5%;
+}
+.foto1{
+background: white;
+  width: 100px;
+  height: 100px;
+  background-size: cover;
+  border-radius: 45%;
+  float: left;
+  line-height: 100px;
+  position: relative;
+  margin-top: 0px;
+}
+.tdv{
+  position: relative;
+width: 80%;
+color: white;
+float: left;
+margin-left: 10%;
+margin-top: 1%;
+text-align: justify;
+  height: 40%;
+  overflow:scroll;
+}
+.table{
+  color: white;
+}
+.perf{
+max-height: 1100px; 
+}
+   .container {
+            min-height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        .perf {
+            flex: 1;
+        }
+footer {
+  font-family: Roboto Condensed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  background: #e9eef0;
+  width: 100%;
+  height: auto;
+  padding: 12px 3%;
+  display: flex;
+}
+
+.contenedor {
+  width: 100%;
+  height: auto;
+}
+
+.contenedor .sec.pre {
+  width: 40%;
+  height: 100%;
+  float: left;
+}
+
+.contacto {
+  width: 60%;
+  height: 100%;
+  float: right;
+  padding-left: 380px;
+}
+
+.contacto .info ul {
+  float: right;
+  display: flex;
+}
+
+.contacto .info li {
+  list-style-type: none;
+  display: inline;
+  margin-bottom: 0px;
+  padding-right: 31px;
+}
+
+.contacto .info li span:nth-child(1) {
+  color: black;
+  font-size: 30px;
+  margin-right: 0px;
+}
+
+.contacto .info li span {
+  color: black;
+  font-size: 20px;
+  font-family: Roboto Condensed;
+}
+
+.contacto .info li a {
+  color: black;
+  font-size: 30px;
+  font-family: Roboto Condensed;
+  text-decoration: none;
+  padding-top: 5px;
+}
+
+.contacto .info li a:hover {
+  color: #73E62C;
+}
+@media (max-width: 720px) {
+  ul{
+    margin-bottom: 0;
+  }
+  header {
+    height: 80px;
+  }
+
+  .nombre {
+    margin-top: -60px;
+  }
+  #umu,
+  #umu1,
+  #umu5,
+  #umu2 {
+    margin-left: 10px;
+  }
+
+.C {
+  width: 100%;
+  height: auto;
+}
+  .T,
+  .T1 {
+    width: 100%;
+    float: none;
+    margin-top: 10px;
+    position: relative;
+  }
+
+  .ht {
+    margin-top: 2%;
+  }
+
+  .ht1 {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .contacto .info ul {
+    padding-left: 0;
+  }
+
+  .col-xl-4 {
+    margin-top: 10px;
+  }
+
+  footer {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+
+  }
+.contacto {
+  width: 60%;
+  height: 100%;
+  float: right;
+  padding-left: 0px;}
+
+  footer .info li span:nth-child(1) {
+    font-size: 20px;
+  }
+}
+
+
+@media (min-width: 1200px) {
+  
+  header {
+    height: 70px;
+  }
+
+  .nombre {
+    margin-top: -80px;
+  }
+  #umu,
+  #umu1,
+  #umu5,
+  #umu2 {
+    margin-left: 425px;
+  }
+
+  .T {
+    width: 60%;
+  }
+
+  .T1 {
+    width: 40%;
+    margin-top: -6.4px;
+  }
+
+  .btn {
+    margin-left: 30%;
+  }
+
+  .ht {
+    margin-top: 5%;
+  }
+
+  .ht1 {
+    margin-left: 5%;
+    margin-right: 15%;
+  }
+
+  .col-xl-4 {
+    margin-top: 20px;
+  }
+
+  footer {
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+}
