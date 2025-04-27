@@ -1,43 +1,41 @@
-*Impúlsame
+# Impúlsame - Plataforma de Empleabilidad
 
+Impúlsame es una plataforma web de empleabilidad diseñada para facilitar la conexión entre trabajadores y clientes. Proporciona un espacio dinámico, intuitivo y seguro para encontrar oportunidades laborales o contratar servicios profesionales de forma rápida y eficiente.
 
-Impúlsame es una plataforma web de empleabilidad que facilita la conexión entre trabajadores y clientes, proporcionando un espacio dinámico, intuitivo y seguro para encontrar oportunidades laborales o contratar servicios profesionales de forma rápida.
+## Funcionalidades Principales
 
-En Impúlsame, los usuarios pueden registrarse y utilizar la plataforma de acuerdo con el tipo de cuenta que seleccionen:
+**Registro de Usuarios:**
+* Registro personalizado para trabajadores y clientes, asegurando una experiencia adaptada a cada tipo de usuario.
 
-Trabajador: Los trabajadores pueden crear un perfil profesional completo, administrarlo y actualizarlo según sus habilidades, experiencias, certificaciones y portafolios. Además, pueden gestionar sus interacciones con los clientes directamente desde la plataforma.
+**Perfiles de Trabajadores:**
+* Los trabajadores pueden crear un perfil profesional completo, incluyendo formación, experiencia laboral, habilidades técnicas y otra información relevante.
+* Administración y actualización sencilla del perfil.
+* Posibilidad de incluir certificaciones y portafolios.
+* Gestión directa de interacciones con los clientes desde la plataforma.
 
-Cliente: Los clientes tienen la capacidad de buscar trabajadores filtrando por categoría, habilidades o experiencia. Desde su panel personalizado, pueden visualizar perfiles detallados y contactar a los trabajadores que se adapten a sus necesidades.
+**Búsqueda Avanzada:**
+* Los clientes pueden realizar búsquedas específicas de trabajadores filtrando por categoría laboral, habilidades, experiencia, ubicación, entre otros criterios.
 
-Características principales
-Registro de usuarios: Registro personalizado para trabajadores y clientes, asegurando una experiencia adecuada a cada tipo de usuario.
+**Sistema de Chat Integrado:**
+* La plataforma cuenta con un chat interno que permite la comunicación directa y segura entre clientes y trabajadores dentro del ecosistema de Impúlsame.
 
-Perfiles de trabajadores: Los trabajadores pueden describir su formación, agregar experiencia laboral, habilidades técnicas y otra información relevante.
+**Opciones de Contacto Externo:**
+* Además del chat interno, los usuarios tienen la opción de compartir información de contacto externa como correo electrónico o teléfono, facilitando acuerdos fuera de la plataforma si lo desean.
 
-Búsqueda avanzada: Los clientes pueden realizar búsquedas específicas para encontrar el trabajador ideal según criterios como categoría laboral, ubicación, nivel de experiencia, entre otros.
+**Panel de Administración:**
+* Un panel exclusivo para administradores que permite la gestión de usuarios, el monitoreo de interacciones, la revisión de perfiles, el control de reportes y la supervisión general del funcionamiento de la plataforma.
 
-Sistema de chat integrado: La plataforma cuenta con un chat interno que permite el contacto directo entre el cliente y el trabajador dentro del ecosistema de Impúlsame, garantizando comunicaciones rápidas y seguras.
+## Tecnologías Utilizadas
 
-Opciones de contacto externo: Además del chat interno, los usuarios pueden optar por compartir otros medios de contacto externos como correo electrónico o teléfono, si así lo desean, facilitando acuerdos fuera de la plataforma.
+* **PHP:** Lógica del servidor y conexión con la base de datos.
+* **JavaScript (JS):** Dinamismo e interactividad de la plataforma.
+* **HTML5:** Estructura y organización de contenidos.
+* **CSS3:** Estilos personalizados para la plataforma.
+* **Bootstrap:** Framework para construir una interfaz moderna, limpia y completamente responsiva.
+* **MySQL:** Sistema de gestión de base de datos para almacenar información de usuarios, chats, perfiles y registros de interacción.
 
-Panel de administración: Un panel exclusivo para administradores que permite gestionar usuarios, monitorear interacciones, revisar perfiles, controlar reportes y garantizar el correcto funcionamiento de la plataforma.
+## Arquitectura del Sistema
 
-Tecnologías utilizadas
-El proyecto ha sido desarrollado utilizando:
-
-PHP — Lógica del servidor y conexión con la base de datos.
-
-JavaScript (JS) — Dinamismo e interactividad de la plataforma.
-
-HTML5 — Estructura y organización de contenidos.
-
-CSS3 — Estilos personalizados para la plataforma.
-
-Bootstrap — Framework para construir una interfaz moderna, limpia y completamente responsiva.
-
-Arquitectura general del sistema
-Frontend: Se diseñó con HTML5, CSS3, Bootstrap y JS para lograr una interfaz amigable, responsiva y fácil de usar.
-
-Backend: Se implementó en PHP, manejando toda la lógica de negocio, la autenticación de usuarios, y el procesamiento de solicitudes.
-
-Base de datos: Utiliza MySQL para almacenar la información de usuarios, chats, perfiles y registros de interacción.
+* **Frontend:** Desarrollado con HTML5, CSS3, Bootstrap y JavaScript para ofrecer una interfaz amigable, responsiva y de fácil uso.
+* **Backend:** Implementado en PHP, encargado de la lógica de negocio, la autenticación de usuarios y el procesamiento de solicitudes.
+* **Base de Datos:** MySQL se utiliza para el almacenamiento persistente de la información de la plataforma.
