@@ -1,4 +1,6 @@
-Impúlsame
+*Impúlsame
+
+
 Impúlsame es una plataforma web de empleabilidad que facilita la conexión entre trabajadores y clientes, proporcionando un espacio dinámico, intuitivo y seguro para encontrar oportunidades laborales o contratar servicios profesionales de forma rápida.
 
 En Impúlsame, los usuarios pueden registrarse y utilizar la plataforma de acuerdo con el tipo de cuenta que seleccionen:
